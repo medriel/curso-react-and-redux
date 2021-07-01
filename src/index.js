@@ -1,17 +1,44 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'
+import ReactDOM from 'react-dom'
+import React from "react"
+
+import Primeiro from './components/basicos/Primeiro'
+import ComParametro from './components/basicos/ComParametro'
+
+/*
+const el = document.getElementById("root")
+ReactDOM.render("Ola React!!!", el)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  "Ola React!!!",
+  document.getElementById("root")
+  )
+*/
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// utilizando JSX
+/*
+ReactDOM.render(
+  <div>Ola</div>,
+  document.getElementById(`root`)
+)
+
+const tag = <div>Ola</div>
+ReactDOM.render(
+  tag,
+  document.getElementById(`root`)
+)*/
+
+//utilizando o componente ~primeiro~
+ReactDOM.render(
+  <div>
+    <Primeiro></Primeiro>
+    <ComParametro
+      titulo="Segundo Componente"
+      aluno="Miguel"
+      nota={9.3}
+    >
+    </ComParametro>
+  </div>,
+  document.getElementById(`root`)
+)
+
