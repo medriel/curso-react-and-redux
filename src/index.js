@@ -1,9 +1,6 @@
 import './index.css'
 import ReactDOM from 'react-dom'
-import React from "react"
-
-import Primeiro from './components/basicos/Primeiro'
-import ComParametro from './components/basicos/ComParametro'
+import App from "./App"
 
 /*
 const el = document.getElementById("root")
@@ -30,15 +27,7 @@ ReactDOM.render(
 
 //utilizando o componente ~primeiro~
 ReactDOM.render(
-  <div>
-    <Primeiro></Primeiro>
-    <ComParametro
-      titulo="Segundo Componente"
-      aluno="Miguel"
-      nota={9.3}
-    >
-    </ComParametro>
-  </div>,
+  <App />,
   document.getElementById(`root`)
 )
 
