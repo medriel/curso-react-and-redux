@@ -6,6 +6,9 @@ import ComParametro from './components/basicos/ComParametro'
 import Aleatorio from './components/basicos/Aleatorio'
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembo"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
+import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 
 export default () => (
   <div className="App">
@@ -31,7 +34,20 @@ export default () => (
       </Card>
 
       <Card titulo="Componente com filhos" color="#546">
-        <Familia sobrenome="Medeiros" />
+        <Familia sobrenome="Medeiros" >
+          <FamiliaMembro nome="Pedro" />
+          <FamiliaMembro nome="Fernanda" />
+          <FamiliaMembro nome="Alonso" />
+
+        </Familia>
+      </Card>
+
+      <Card titulo="Repeticao" color="#FF4c65">
+        <ListaAlunos />
+      </Card>
+
+      <Card titulo="Desafio repetição" color="#ff432e">
+        <TabelaProdutos />
       </Card>
     </div>
 
