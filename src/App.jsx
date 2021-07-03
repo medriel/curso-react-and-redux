@@ -5,6 +5,7 @@ import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
 import Aleatorio from './components/basicos/Aleatorio'
 import Card from "./components/layout/Card"
+import Familia from "./components/basicos/Familia"
 
 export default () => (
   <div className="App">
@@ -27,6 +28,10 @@ export default () => (
           max={5}
           min={1}
         />
+      </Card>
+
+      <Card titulo="Componente com filhos" color="#546">
+        <Familia sobrenome="Medeiros" />
       </Card>
     </div>
 
