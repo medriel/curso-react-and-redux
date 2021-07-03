@@ -9,6 +9,8 @@ import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembo"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
+import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
 
 export default () => (
   <div className="App">
@@ -48,6 +50,12 @@ export default () => (
 
       <Card titulo="Desafio repetição" color="#ff432e">
         <TabelaProdutos />
+      </Card>
+
+      <Card titulo="Renderizacao condicional" color="#982395">
+        <ParOuImpar numero={21} />
+        <UsuarioInfo usuario={{ nome: 'Fernando' }} />
+        <UsuarioInfo usuario={{ sobrenome: 'Martins' }} />
       </Card>
     </div>
 
