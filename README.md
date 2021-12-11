@@ -10,3 +10,7 @@ Curso da plataforma Udemy ministrado pela cod3r
  - Node.js
  - Express 
  - MongoDB
+
+## Aplicações desenvolvidas:
+
+## Certificado:
