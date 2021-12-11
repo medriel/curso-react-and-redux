@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './UserCrud.css'
 import Main from '../template/Main';
 
 const headerProps = {
