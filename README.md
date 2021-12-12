@@ -12,5 +12,6 @@ Curso da plataforma Udemy ministrado pela cod3r
  - MongoDB  <img align="center" alt="Adriel-MongoDB" height="15" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"/>
 
 ## Aplicações desenvolvidas:
+https://github.com/medriel/curso-react-and-redux/tree/main/cadastro-de-usuario
 
 ## Certificado:
