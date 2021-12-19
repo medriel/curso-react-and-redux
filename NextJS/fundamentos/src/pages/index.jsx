@@ -1,3 +1,7 @@
 export default function Home() {
-  return "Inicio"
+  return (
+    <div>
+      <h1>Fundamentos de Next.js & reactJS</h1>
+    </div>
+  )
 }
