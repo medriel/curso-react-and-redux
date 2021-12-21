@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 export default function App() {
   return (
-    <Layout>
+    <Layout title="Exemplo de CSS Modularizado">
       <Header title="Fundamentos de Next.js & ReactJS" />
     </Layout>
   )
