@@ -1,7 +1,15 @@
+import Navigator from "../components/Navigator";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Fundamentos de Next.js & reactJS</h1>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      flexWrap: 'wrap',
+    }}>
+      <Navigator destiny="/app" text="App" color="crimson" />
     </div>
   )
 }
