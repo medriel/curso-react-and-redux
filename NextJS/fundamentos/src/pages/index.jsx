@@ -10,6 +10,7 @@ export default function Home() {
       flexWrap: 'wrap',
     }}>
       <Navigator destiny="/app" text="App" color="crimson" />
+      <Navigator destiny="/static" text="Static" color="green" />
     </div>
   )
 }

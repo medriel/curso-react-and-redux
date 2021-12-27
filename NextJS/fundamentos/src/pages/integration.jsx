@@ -12,7 +12,6 @@ export default function Integration() {
     setClient(data)
   }
 
-
   return (
     <Layout>
       <div>
@@ -27,6 +26,5 @@ export default function Integration() {
         <li>Nome: {client.name}</li>
       </ul>
     </Layout>
-
   )
 }
