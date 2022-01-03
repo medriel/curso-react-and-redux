@@ -16,5 +16,6 @@ Curso da plataforma Udemy ministrado pela cod3r
 
 ## Aplicações desenvolvidas
 - Cadastro de usuários: https://github.com/medriel/curso-react-and-redux/tree/main/cadastro-de-usuario
+- Crud simples com Next.js https://github.com/medriel/next-crud
 
 ## Certificado:
