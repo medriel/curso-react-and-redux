@@ -1,5 +1,7 @@
 import './App.css';
-import Card from './components/Card';
+import Average from './components/Average';
+import Sum from './components/Sum';
+import Raffle from './components/Raffle';
 import Interval from './components/Interval'
 
 function App() {
@@ -10,17 +12,10 @@ function App() {
         <Interval />
       </div>
       <div className="line">
-        <Card title="Card2" green>
-          2
-        </Card>
-        <Card title="Card3" blue>
-          3
-        </Card>
-        <Card title="Card4" purple>
-          4
-        </Card>
+        <Average />
+        <Sum />
+        <Raffle />
       </div>
-
     </div>
   );
 }

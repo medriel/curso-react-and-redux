@@ -2,9 +2,7 @@ import "./Interval.css";
 import React from "react";
 import Card from "./Card";
 
-
 export default function Interval(props) {
-
   return (
     <Card title="Intervalo de Números" red>
       <div className="Interval">
