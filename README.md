@@ -1,5 +1,5 @@
 # curso-react-and-redux
-Curso da plataforma Udemy ministrado pela cod3r
+Curso da plataforma Udemy ministrado pela Cod3r.
 
 ## Tecnologias abordadas
 
