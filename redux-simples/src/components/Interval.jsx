@@ -7,12 +7,20 @@ export default function Interval(props) {
     <Card title="Intervalo de Números" red>
       <div className="Interval">
         <span>
-          <strong>Mínino:</strong>
-          <input type="number" value={0} readOnly />
+          <strong>Mínimo:</strong>
+          <input
+            type="number"
+            value={props.min}
+            onChange={e => props.onMinChanged(+e.target.value)}
+          />
         </span>
         <span>
           <strong>Máximo:</strong>
-          <input type="number" value={10} readOnly />
+          <input
+            type="number"
+            value={props.max}
+            onChange={e => props.onMaxChanged(+e.target.value)}
+          />
         </span>
       </div>
     </Card>

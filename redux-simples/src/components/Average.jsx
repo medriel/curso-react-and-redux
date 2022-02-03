@@ -7,7 +7,7 @@ export default function Average(props) {
       <div >
         <span>
           <span>Resultado:</span>
-          <strong>5</strong>
+          <strong>{(props.max + props.min) / 2}</strong>
         </span>
       </div>
     </Card>
