@@ -7,7 +7,7 @@ export default function Sum(props) {
       <div>
         <span>
           <span>Soma:</span>
-          <strong>{(props.max + props.min)}</strong>
+          <strong>{1}</strong>
         </span>
       </div>
     </Card>

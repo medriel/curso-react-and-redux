@@ -10,16 +10,16 @@ export default function Interval(props) {
           <strong>Mínimo:</strong>
           <input
             type="number"
-            value={props.min}
-            onChange={e => props.onMinChanged(+e.target.value)}
+            value={0}
+            readOnly
           />
         </span>
         <span>
           <strong>Máximo:</strong>
           <input
             type="number"
-            value={props.max}
-            onChange={e => props.onMaxChanged(+e.target.value)}
+            value={10}
+            readOnly
           />
         </span>
       </div>
