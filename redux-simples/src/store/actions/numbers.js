@@ -1,8 +1,9 @@
+import { NEW_NUM_MIN, NEW_NUM_MAX } from './actionsType'
 
 // action creator
 export function changeMinimumNumber(newNumber) {
   return {
-    type: 'NEW_NUM_MIN',
+    type: NEW_NUM_MIN,
     payload: newNumber
   }
 }
@@ -10,7 +11,7 @@ export function changeMinimumNumber(newNumber) {
 // action creator
 export function changeMaximumNumber(newNumber) {
   return {
-    type: 'NEW_NUM_MAX',
+    type: NEW_NUM_MAX,
     payload: newNumber
   }
 }
