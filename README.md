@@ -23,3 +23,5 @@ Curso da plataforma Udemy ministrado pela Cod3r.
 - Aplicação para controle financeiro https://github.com/medriel/my-money
 
 ## Certificado:
+
+![image](https://user-images.githubusercontent.com/74268252/162637997-3bddf758-6000-4ae9-bb1c-93d52504e53e.png)
