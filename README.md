@@ -20,6 +20,6 @@ Curso da plataforma Udemy ministrado pela Cod3r.
 - Cadastro de usuários: https://github.com/medriel/curso-react-and-redux/tree/main/cadastro-de-usuario
 - Crud simples com Next.js https://github.com/medriel/next-crud
 - Aplicação para controle de tarefas (todo-app) https://github.com/medriel/todo-app 
-- Aplicação para controle financeiro 
+- Aplicação para controle financeiro https://github.com/medriel/my-money
 
 ## Certificado:
