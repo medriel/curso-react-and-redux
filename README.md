@@ -15,6 +15,7 @@ Curso da plataforma Udemy ministrado pela Cod3r.
  - MongoDB  <img align="center" alt="Adriel-MongoDB" height="15" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"/>
  - Firebase  <img align="center" alt="Adriel-Firebase" height="15" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"/>
  - Cloud Firestore <img align="center" alt="Adriel-Firestore" height="15" width="20" src="https://www.svgrepo.com/show/375433/firestore.svg"/>
+ - Heroku <img align="center" alt="Adriel-Heroku" height="15" width="20" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/heroku/heroku-plain.svg"/>
 
 ## Aplicações desenvolvidas
 - Cadastro de usuários: https://github.com/medriel/curso-react-and-redux/tree/main/cadastro-de-usuario
